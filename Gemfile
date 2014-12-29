@@ -9,7 +9,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'bootstrap-sass'
 gem 'devise', '~>3.4.1'
+gem 'tzinfo'
+gem 'tzinfo-data'
 gem "paperclip", '~>3.0'
+gem 'aws-sdk', '~>1.60.2'
 
 group :development, :test do
      gem 'sqlite3'
