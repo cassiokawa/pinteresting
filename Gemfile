@@ -15,6 +15,8 @@ gem 'tzinfo-data'
 gem "paperclip", '~>3.0'
 gem 'aws-sdk', '~>1.60.2'
 gem 'masonry-rails'	
+gem 'will_paginate', '~> 3.0.5'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
      gem 'sqlite3'
